@@ -1,0 +1,25 @@
+# .gitignore
+
+# Ignore the data folder
+data/
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook files
+*.ipynb_checkpoints/
+
+# Ignore environment related files
+.env
+.venv/
+*.env
+*.venv
+env/
+venv/
+ENV/
+
+# Ignore Mac system files
+.DS_Store
